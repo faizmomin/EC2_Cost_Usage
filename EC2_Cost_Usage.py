@@ -9,7 +9,7 @@ response = client.get_cost_and_usage(
         },
         Ganularity='Monthly',
         Filters = [{
-                'Resource' : 'EC2'   #Not sure if this is the correct way to filter by ec2 instances
+                'Resource' : 'EC2'  
             }],
         Metrics=['BlendedCost'],
         GroupBy=[
